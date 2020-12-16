@@ -10,6 +10,7 @@ import Counter from './components/Counter';
 import FunctionClick from './components/functionClick';
 import ClassClicked from './components/ClassClicked';
 import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
 function App() {
   return (
     <div className="App">
@@ -19,7 +20,9 @@ function App() {
       </Greet> */}
       {/* <FunctionClick></FunctionClick>
       <ClassClicked></ClassClicked> */}
-      <EventBind></EventBind>
+      {/* <EventBind></EventBind> */}
+
+      <ParentComponent></ParentComponent>
       {/* <Welcome name="Ram">
         <button>This is a Class Button</button>
         </Welcome>    
