@@ -9,6 +9,7 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import FunctionClick from './components/functionClick';
 import ClassClicked from './components/ClassClicked';
+import EventBind from './components/EventBind';
 function App() {
   return (
     <div className="App">
@@ -16,8 +17,9 @@ function App() {
       {/* <Greet name="Ram" heroName="Hero">
         <p> THis is Ram Children</p>
       </Greet> */}
-      <FunctionClick></FunctionClick>
-      <ClassClicked></ClassClicked>
+      {/* <FunctionClick></FunctionClick>
+      <ClassClicked></ClassClicked> */}
+      <EventBind></EventBind>
       {/* <Welcome name="Ram">
         <button>This is a Class Button</button>
         </Welcome>    
